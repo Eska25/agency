@@ -1,0 +1,140 @@
+/*
+/*global*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	padding-left: 0;
+	list-style-type: none; 
+}
+a{
+	text-decoration: none;
+}
+.clearfix:before , .clearfix:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/*header*/
+#header{
+	background-color: #fff;
+	padding: 40px 0;
+}
+.logo{
+	float: left;
+	cursor: pointer;
+}
+.navigation{
+	float: right;
+}
+.navigation li{
+	float:left;
+	margin-left: 30px; 
+}
+.navigation li a{
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#191919;
+}
+.navigation li a.active , .navigation li a:hover{
+	color: #10c9c3;
+}
+/*/header*/
+
+
+/*aboutMe*/
+#aboutMe{
+	background-color: #f6f6f6;
+	text-align: center;
+	padding: 100px 0;
+}
+#aboutMe h1{
+	color: #171717;
+	font-family: "Nunito Sans";
+	font-weight: bold;
+	font-size: 38px;
+	margin-bottom: 40px;
+}
+#aboutMe p{
+	font-family: "Nunito Sans";
+	font-size: 18px;
+	color: #787878;
+	line-height: 1.6em;
+}
+/*/aboutMe*/
+
+/*works*/
+.works_item{
+	width: 25%;
+	padding: 150px 0;
+	float: left;
+	cursor: pointer;
+}
+.works .dark{
+	background-color: #838383;
+}
+.works .light{
+	background-color: #ddd; 
+}
+.works_item:hover{
+	background:url(../images/eye.png) no-repeat center center , rgba(33,191,185,.85);
+}
+
+/*/works*/
+
+/*footer*/
+
+#footer{
+	background-color: #141414;
+	color: #bcbcbc;
+	padding: 90px 0;
+	font-family: "Nunito Sans";
+	font-size: 15px;
+}
+.copy , .email  {
+	float: left;
+}
+.footerNav{
+	float:right;
+}
+.list_1 , .list_2{
+	float:left;
+}
+.list_icons{
+	float: right;
+	margin-left: 140px;
+}
+.list_2{
+	margin-left: 50px;
+}
+.copy{
+	margin-right: 230px;
+}
+.copy h4{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footerNav li{
+	margin-bottom: 10px;
+}
+.footerNav li a{
+	font-family: "Nunito Sans";
+	font-size: 15px;
+	color: #bcbcbc;
+}
+.footerNav li a:hover{
+	color: #10c9c3;
+}
+
+/*/footer*/

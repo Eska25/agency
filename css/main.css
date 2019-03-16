@@ -56,18 +56,34 @@ a{
 	background-color: #f6f6f6;
 	text-align: center;
 	padding: 100px 0;
+	font-family: "Nunito Sans";
 }
 #aboutMe h1{
 	color: #171717;
-	font-family: "Nunito Sans";
 	font-weight: bold;
 	font-size: 38px;
 	margin-bottom: 40px;
 }
 #aboutMe p{
-	font-family: "Nunito Sans";
 	font-size: 18px;
 	color: #787878;
+	line-height: 1.6em;
+}
+#myself{
+	text-align: center;	
+	color: #fff;
+	background-color: #3e3e3e;
+	padding: 100px 0;
+}
+|#myself.title{
+	font-family: "Montserrat";
+	font-size: 40px;
+	font-weight: bold;	
+	margin-bottom: 20px;
+}
+#myself.text{
+	font-family: "Nunito Sans";
+	font-size: 18px;
 	line-height: 1.6em;
 }
 /*/aboutMe*/
@@ -90,6 +106,8 @@ a{
 }
 
 /*/works*/
+
+
 
 /*footer*/
 

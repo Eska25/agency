@@ -1,4 +1,4 @@
-/*
+
 /*global*/
 *{
 	box-sizing: border-box;
@@ -69,23 +69,6 @@ a{
 	color: #787878;
 	line-height: 1.6em;
 }
-#myself{
-	text-align: center;	
-	color: #fff;
-	background-color: #3e3e3e;
-	padding: 100px 0;
-}
-|#myself.title{
-	font-family: "Montserrat";
-	font-size: 40px;
-	font-weight: bold;	
-	margin-bottom: 20px;
-}
-#myself.text{
-	font-family: "Nunito Sans";
-	font-size: 18px;
-	line-height: 1.6em;
-}
 /*/aboutMe*/
 
 /*works*/
@@ -108,6 +91,105 @@ a{
 /*/works*/
 
 
+/*myself*/
+#myself{
+	background-color: #3e3e3e;
+	text-align: center;
+	padding: 100px 0;
+}
+#myself h1{
+	font-family: "Montserrat";
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 40px
+}
+#myself p{
+	font-famiy: "Nunito Sans";
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.6em;
+}
+/*/myself*/
+
+/*achievements*/
+#achievs{
+	background-color: #10c9c3;
+	padding: 90px 0;
+}
+.achievsItem{
+	float: left;
+	margin-right: 100px;
+}
+.achievsText{
+	float: right;
+	margin-left: 25px;
+	font-family: "Montserrat";
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.7em;
+}
+
+/*/achievements*/
+
+/*introduce*/
+#introduce{
+	overflow: hidden;
+}
+.photo{
+	width: 50%;
+	float:left;
+	background-color: #e1e1e1;
+}
+.inf{
+	width: 50%;
+	float:right;
+	background-color: #f5f5f5;
+	padding: 120px 130px 130px 70px;
+}
+.inf h2{
+	font-family: "Montserrat";
+	font-size: 30px;
+	color: #171717;
+	margin-bottom: 35px;
+}
+.inf p{
+	font-family: "Nunito Sans";
+	font-size: 16px;
+	color: #787878;
+	margin-bottom: 20px;
+}
+/*/introduce*/
+
+/*project*/
+#project{
+	text-align: center;
+	padding: 95px;
+}
+#project h2{
+	font-family: "Montserrat";
+	font-size: 30px;
+	color: #1d1d1d;
+	margin-bottom: 40px;
+}
+#project p{
+	font-family: "Nunito Sans";
+	font-size: 16px;
+	color: #787878;
+	line-height: 1.6em;
+	margin-bottom: 40px;
+}
+#project .button{
+	font-family: "Montserrat";
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #10c9c3;
+	padding: 18px 50px;
+}
+/*/project*/
 
 /*footer*/
 
@@ -155,4 +237,4 @@ a{
 	color: #10c9c3;
 }
 
-/*/footer*/
+/*/footer

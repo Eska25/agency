@@ -180,7 +180,7 @@ a{
 	line-height: 1.6em;
 	margin-bottom: 40px;
 }
-#project .button{
+.button{
 	font-family: "Montserrat";
 	display: inline-block;
 	font-size: 12px;
@@ -191,6 +191,70 @@ a{
 }
 /*/project*/
 
+/*contacts*/
+#contacts{
+	background-color: #f5f5f5;
+}
+.contacts{
+	padding: 90px 0;
+}
+.contactsInf{
+	width: 40%;
+	float: left;
+}
+.contactsInf{
+	padding-right: 75px;
+}
+.contactsInf h2{
+	font-family: "Montserrat";
+	font-size: 30px;
+	color: #171717;
+	margin-bottom:40px;
+}
+.contactsInf p{
+	font-family: "Nunito Sans";
+	font-size: 16px;
+	color: #787878;
+	line-height: 1.6em;
+	margin-bottom: 15px;
+}
+.contactsInf p .bold{
+	font-weight: bold;
+}
+.contactsForm{
+	width: 60%;
+	float: right;
+}
+.contactsForm input , .contactsForm textarea{
+	display: block;
+	width: 100%;
+	font-family: "Nunito Sans";
+	font-size: 15px;
+	color: #787878;
+	padding: 15px 20px;
+	margin-bottom: 30px;
+	resize: none;
+}
+
+.contactsForm input[name="name"] , .contactsForm input[type="email"]{
+	width: 48%;
+}
+.contactsForm input[name="name"]{
+	float: left;
+}
+.contactsForm input[type="email"]{
+	float: right;
+}
+/*/contacts*/
+
+/*map*/
+.map{
+	background: url(../images/pointe_icon.png) no-repeat center center , #e0e0e0 ;
+	height: 440px;
+	margin-bottom: 60px;
+}
+
+/*/map*/
 /*footer*/
 
 #footer{
@@ -236,5 +300,4 @@ a{
 .footerNav li a:hover{
 	color: #10c9c3;
 }
-
-/*/footer
+/*/footer*/
